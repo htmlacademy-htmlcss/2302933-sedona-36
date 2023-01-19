@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Petr Melnikov](https://up.htmlacademy.ru/htmlcss/36/user/2302933).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Гуляев](https://htmlacademy.ru/profile/dima).
 
 ---
 
