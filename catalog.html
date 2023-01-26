@@ -8,11 +8,11 @@
 </head>
 <body>
   <header class="page-header" data-test="header">
+    <a class="logo-link">
+      <img class="logo" src="#" alt="Логотип компании.">
+    </a>
     <nav class="page-navigation">
       <ul class="navigation-list">
-        <li class="navigation-item">
-          <img class="logo" src="#" alt="Логотип компании.">
-        </li>
         <li class="navigation-item">
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
@@ -23,22 +23,23 @@
           <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-      <ul class="navigation-list user-menu">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">Понравившееся</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link brown-button" href="#">Хочу сюда!</a>
-        </li>
-      </ul>
     </nav>
+    <ul class="navigation-list user-menu">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">
+          <span class="visually-hidden">Поиск</span>
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">
+          <span class="likes">12</span>
+          <span class="visually-hidden">Понравившиxся</span>
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link brown-button" href="#">Хочу сюда!</a>
+      </li>
+    </ul>
   </header>
   <main class="main-inner" data-test="main">
     <header class="inner-header">
