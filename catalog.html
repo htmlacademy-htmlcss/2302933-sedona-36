@@ -44,16 +44,16 @@
   <main class="main-inner" data-test="main">
     <header class="inner-header">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      <ul class="breadcrumbs">
+      <ol class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" href="index.html">
             <span class="visually-hidden">Главная</span>
           </a>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link">Гостиницы</a>
+          <a class="breadcrumbs-link" href="#">Гостиницы</a>
         </li>
-      </ul>
+      </ol>
       <section class="catalog-filter" data-test="filter">
         <h2 class="visually-hidden">Выбор услуг проживания</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -113,7 +113,8 @@
               <input class="control-price-input" type="number" value="9000">
               До
             </label>
-            <input class="control-price-range" type="range" min="0" max="9000" step="100">
+            <input class="control-price-range" type="text">
+            <input class="control-price-range" type="text">
           </fieldset>
           <button class="button" type="submit">Применить</button>
           <button class="btn" type="reset">Сбросить</button>
