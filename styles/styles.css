@@ -192,3 +192,14 @@ body{
 .hotel-card-price{
   color:#333333;
 }
+.hotel-card-rating{
+  font-size:16px;
+  line-height: 20px;
+  text-align: center;
+  color:#333333;
+  text-transform: uppercase;
+  background-color:#F2F2F2;
+}
+.pressed-button{
+  background-color:#7DB54F;
+}
