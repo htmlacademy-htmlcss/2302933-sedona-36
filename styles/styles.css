@@ -168,4 +168,16 @@ body{
 .reset-button{
   background:none;
 }
-
+.catalog-hotels-title{
+  font-weight:700;
+  font-size:30px;
+  line-height:36px;
+  text-transform: uppercase;
+}
+.select-control{
+  font-family: "PT Sans", sans-serif;
+  color:#333333;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
