@@ -26,3 +26,13 @@ body{
   text-decoration: none;
   color:#000000;
 }
+.link-button{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  background-color:#756157;
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
