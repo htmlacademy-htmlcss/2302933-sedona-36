@@ -92,6 +92,10 @@ body{
   color:#333333;
 }
 .subscribe{
+  background-color: #ffffff;
+  color:#000000;
+}
+.subscribe-with-background-img{
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -116,7 +120,7 @@ body{
   line-height: 36px;
   text-transform: uppercase;
   background-color:#82B3D3;
-  color:inherit;
+  color:#ffffff;
 }
 .contacts-phone{
   font-size: 40px;
