@@ -91,3 +91,29 @@ body{
 .services-item-description{
   color:#333333;
 }
+.subscribe{
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+  color:#ffffff;
+}
+.subscribe-title{
+  font-size:30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.subscribe-text{
+  font-size:22px;
+  line-height: 26px;
+  text-align:center;
+}
+.button{
+  font-weight: 700;
+  font-size:20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color:#82B3D3;
+}
