@@ -116,4 +116,13 @@ body{
   line-height: 36px;
   text-transform: uppercase;
   background-color:#82B3D3;
+  color:inherit;
+}
+.contacts-phone{
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color:inherit;
+  text-decoration: none;
 }
