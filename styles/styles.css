@@ -133,7 +133,7 @@ body{
 }
 .inner-header{
   background-image: url("../images/filter-background.jpg");
-  background-size:100% auto;
+  background-size:100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-color:#000000;
