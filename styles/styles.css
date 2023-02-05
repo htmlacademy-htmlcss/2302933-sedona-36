@@ -1,4 +1,4 @@
-
+/* Подключение шрифтов */
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-400.woff2") format("woff2");
@@ -15,6 +15,7 @@
   font-display: wrap;
 }
 
+/* Общие стили */
 body {
   font-family: "PT Sans", sans-serif;
   font-size:18px;
@@ -23,6 +24,7 @@ body {
   color:#000000;
 }
 
+ /* Стилизация шапки */
 .navigation-link {
   font-size:20px;
   font-weight:700;
@@ -43,6 +45,7 @@ body {
   text-transform: uppercase;
 }
 
+/* Стилизация hero блока */
 .hero {
   background-image:url("../images/divider.svg"),url("../images/hero-background.jpg");
   background-repeat: no-repeat,no-repeat;
@@ -50,6 +53,7 @@ body {
   background-position: bottom center, center;
 }
 
+/* Стилизация блока преимуществ */
 .container-title {
   font-size:30px;
   font-weight:700;
@@ -94,6 +98,7 @@ body {
   text-transform: uppercase;
 }
 
+/* Стилизация блока сервисов */
 .services-item {
   text-align: center;
 }
@@ -109,6 +114,7 @@ body {
   color:#333333;
 }
 
+/* Стилизация блока подписки */
 .subscribe {
   background-color: #ffffff;
   color:#000000;
@@ -146,6 +152,7 @@ body {
   color:#ffffff;
 }
 
+/* Стилизация подвала */
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
@@ -155,6 +162,7 @@ body {
   text-decoration: none;
 }
 
+/* Стилизация фильтра каталога */
 .inner-header {
   background-image: url("../images/filter-background.jpg");
   background-size:100% 100%;
@@ -201,6 +209,7 @@ body {
   background:none;
 }
 
+/* Стилизация карточек отелей */
 .catalog-hotels-title {
   font-weight:700;
   font-size:30px;
@@ -243,6 +252,7 @@ body {
   background-color:#7DB54F;
 }
 
+/* Стилизация паганации */
 .pagination-link {
   background-color:#82B3D3;
   color:#ffffff;
