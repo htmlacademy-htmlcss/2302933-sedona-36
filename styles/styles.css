@@ -17,9 +17,12 @@
 
 /* Общие стили */
 body {
+  margin: 0;
+
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+
   background-color: #ffffff;
   color: #000000;
 }
