@@ -60,7 +60,7 @@ body {
 }
 
 /* Стилизация main блока */
-.main-content {
+.main-container {
   flex-grow: 1;
 }
 
