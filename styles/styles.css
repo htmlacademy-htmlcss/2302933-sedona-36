@@ -16,8 +16,13 @@
 }
 
 /* Общие стили */
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  min-height: 100%;
 
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -25,6 +30,14 @@ body {
 
   background-color: #ffffff;
   color: #000000;
+}
+
+.page-container {
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
  /* Стилизация шапки */
@@ -46,9 +59,14 @@ body {
   text-transform: uppercase;
 }
 
+/* Стилизация main блока */
+.main-content {
+  flex-grow: 1;
+}
+
 /* Стилизация hero блока */
 .hero {
-  background-image: url("../images/divider.svg"),url("../images/hero-background.jpg");
+  background-image: url("../images/divider.svg"), url("../images/hero-background.jpg");
   background-repeat: no-repeat,no-repeat;
   background-size: 100% auto, 100% auto;
   background-position: bottom center, center;
