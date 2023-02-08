@@ -41,6 +41,23 @@ body {
 }
 
  /* Стилизация шапки */
+.page-header {
+  padding: 0 70px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-row-left {
+  display: flex;
+  width: 640px;
+}
+
+.header-row-right {
+  display: flex;
+  width: 300px;
+}
+
 .navigation-link {
   font-size: 20px;
   font-weight: 700;
