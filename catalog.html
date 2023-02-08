@@ -10,38 +10,40 @@
 <body>
   <div class="page-container">
     <header class="page-header" data-test="header">
-      <a class="logo-link" href="index.html">
-        <img class="logo" src="images/header/logo-sedona.svg" width="140" height="70" alt="Логотип компании.">
-      </a>
-      <nav class="page-navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+      <div class="header-row-left">
+        <a class="logo-link" href="index.html">
+          <img class="logo" src="images/header/logo-sedona.svg" width="140" height="70" alt="Логотип компании.">
+        </a>
+        <nav class="page-navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">О Седоне</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-row-right">
+        <ul class="user-menu">
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">О Седоне</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="likes">12</span>
+              <span class="visually-hidden">Понравившихся</span>
+            </a>
           </li>
         </ul>
-      </nav>
-      <ul class="user-menu">
-        <li class="menu-item">
-          <a class="menu-link" href="#">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="#">
-            <span class="likes">12</span>
-            <span class="visually-hidden">Понравившихся</span>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link link-button" href="#">Хочу сюда!</a>
-        </li>
-      </ul>
+        <a class="menu-link link-button" href="#">Хочу сюда!</a>
+      </div>
     </header>
     <main class="main-inner main-container" data-test="main">
       <header class="inner-header">
