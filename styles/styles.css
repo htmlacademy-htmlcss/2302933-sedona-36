@@ -328,7 +328,6 @@ body {
   padding: 40px 40px 30px;
   align-items: center;
   box-sizing: border-box;
-  height: 120px;
 }
 
 .social-media-list {
@@ -353,6 +352,9 @@ body {
 
 /* Стилизация фильтра каталога */
 .inner-header {
+  padding: 35px 70px 70px;
+  box-sizing: border-box;
+
   background-image: url("../images/filter-background.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -362,6 +364,8 @@ body {
 }
 
 .inner-header-title {
+  margin: 0;
+
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
