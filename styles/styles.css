@@ -126,12 +126,11 @@ body {
   text-align: center;
   text-transform: uppercase;
 
-  margin: 0 auto;
+  margin: 0;
 }
 
 .advantages-title {
-  margin: 0 auto 25px;
-  width: 620px;
+  margin-bottom: 25px;
 }
 
 .advantages-description {
