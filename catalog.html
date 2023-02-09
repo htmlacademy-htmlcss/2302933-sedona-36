@@ -130,29 +130,31 @@
         </section>
       </header>
       <section class="catalog-hotels" data-test="catalog">
-        <h2 class="catalog-hotels-title">Найдено Гостиниц: <span class="hotels-amount">38</span></h2>
-        <select class="select-control" aria-label="Сортировка найденных вариантов.">
-          <option value="expensive">Сначала дорогие</option>
-          <option value="cheap" selected>Сначала дешёвые</option>
-          <option value="popular">Сначала популярные</option>
-        </select>
-        <ul class="hotels-list-view">
-          <li class="hotels-list-view-item">
-            <a class="hotels-list-button active-button" href="#">
-              <span class="visually-hidden">Показать карточки</span>
-            </a>
-          </li>
-          <li class="hotels-list-view-item">
-            <a class="hotels-list-button" href="#">
-              <span class="visually-hidden">Слайдшоу</span>
-            </a>
-          </li>
-          <li class="hotels-list-view-item">
-            <a class="hotels-list-button" href="#">
-            <span class="visually-hidden">Показать список</span>
-            </a>
-          </li>
-        </ul>
+        <div class="catalog-hotels-filter">
+          <h2 class="catalog-hotels-title">Найдено Гостиниц: <span class="hotels-amount">38</span></h2>
+          <select class="select-control" aria-label="Сортировка найденных вариантов.">
+            <option value="expensive">Сначала дорогие</option>
+            <option value="cheap" selected>Сначала дешёвые</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+          <ul class="hotels-list-view">
+            <li class="hotels-list-view-item">
+              <a class="hotels-list-button active-button" href="#">
+                <span class="visually-hidden">Показать карточки</span>
+              </a>
+            </li>
+            <li class="hotels-list-view-item">
+              <a class="hotels-list-button" href="#">
+                <span class="visually-hidden">Слайдшоу</span>
+              </a>
+            </li>
+            <li class="hotels-list-view-item">
+              <a class="hotels-list-button" href="#">
+              <span class="visually-hidden">Показать список</span>
+              </a>
+            </li>
+          </ul>
+        </div>
         <ul class="hotels-list">
           <li class="hotel-card">
             <img class="hotel-card-img" src="images/catalog/hotel-1.jpg" width="300" height="212" alt="Звёздное небо в расщелине.">

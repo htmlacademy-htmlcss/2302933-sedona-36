@@ -447,7 +447,19 @@ body {
 }
 
 /* Стилизация карточек отелей */
+.catalog-hotels {
+  padding: 50px 70px 60px;
+}
+
+.catalog-hotels-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .catalog-hotels-title {
+  margin: 0;
+
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
