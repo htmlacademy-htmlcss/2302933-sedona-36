@@ -274,6 +274,10 @@ body {
 .subscribe {
   background-color: #ffffff;
   color: #000000;
+
+  padding: 96px 258px 104px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .subscribe-with-background-img {
@@ -287,6 +291,8 @@ body {
 }
 
 .subscribe-title {
+  margin: 0 0 20px;
+
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -294,12 +300,20 @@ body {
 }
 
 .subscribe-text {
+  margin: 0 0 54px;
+
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
 .subscribe-button {
+  display: inline-block;
+  width: 235px;
+  box-sizing: border-box;
+  padding: 8px 50px;
+  margin: 0;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 20px;
