@@ -133,17 +133,28 @@ body {
   flex-wrap: wrap;
 }
 
-.advantages-item-with-img {
-  width: 1200px;
-  display: flex;
-}
-
 .advantages-item {
   width: 400px;
   box-sizing: border-box;
   text-align: center;
-
   padding: 113px 85px;
+
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-title {
+  margin: 0 auto;
+  margin-bottom: 62px;
+  width: 175px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-item-road {
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-item-description {
@@ -151,6 +162,11 @@ body {
 
   margin: 0;
   width: 230px;
+}
+
+.advantages-item-with-img {
+  width: 1200px;
+  display: flex;
 }
 
 .advantages-item-container {
@@ -164,18 +180,8 @@ body {
   text-align: center;
 }
 
-.advantages-item-container .advantages-item-description {
+.advantages-item-with-img .advantages-item-description {
   color: #ffffff;
-}
-
-.advantages-item-title {
-  margin: 0 auto;
-  width: 175px;
-
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  text-transform: uppercase;
 }
 
 /* Стилизация блока сервисов */
