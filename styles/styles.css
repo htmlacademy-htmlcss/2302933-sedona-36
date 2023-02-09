@@ -90,7 +90,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 
-  display: block;
   box-sizing: border-box;
 }
 
@@ -455,6 +454,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  margin-bottom: 40px;
 }
 
 .catalog-hotels-title {
@@ -472,20 +473,69 @@ body {
   font-size: 18px;
 }
 
+.hotels-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.hotel-card {
+  box-sizing: border-box;
+  width: 340px;
+  padding: 20px;
+
+  border: 1px solid #E6E6E6;
+}
+
+.hotel-card-img {
+  margin-bottom: 16px;
+}
+
 .hotel-card-title {
+  margin: 0 0 16px;
+
   font-weight: 700;
   font-size: 24px;
 }
 
+.hotel-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
 .card-living-type {
+  display: inline-block;
+  width: 130px;
+
   color: #333333;
 }
 
 .hotel-card-price {
+  text-align: end;
+  display: inline-block;
+  width: 140px;
+
   color: #333333;
 }
 
+.stars {
+  margin: 0;
+  width: 120px;
+}
+
 .hotel-card-rating {
+  width: 140px;
+  box-sizing: border-box;
+  padding: 9px 22px;
+
   font-size: 16px;
   text-align: center;
   color: #333333;
@@ -493,8 +543,28 @@ body {
   background-color: #F2F2F2;
 }
 
-.button.pressed-button {
+.hotel-card-link {
+  padding: 8px 26px;
+  margin-right: 13px;
+  margin-bottom: 16px;
+
+  display: inline-block;
+}
+
+.like-button {
+  padding: 8px 20px;
+}
+
+.pressed-button {
   background-color: #7DB54F;
+
+  padding: 8px 18px;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Стилизация пагинации */
