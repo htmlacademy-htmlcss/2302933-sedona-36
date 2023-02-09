@@ -96,6 +96,11 @@ body {
 }
 
 /* Стилизация блока преимуществ */
+
+.advantages-container {
+  padding: 69px 275px;
+}
+
 .container-title {
   font-size: 30px;
   font-weight: 700;
@@ -107,7 +112,7 @@ body {
 }
 
 .advantages-title {
-  margin: 0 auto;
+  margin: 0 auto 25px;
   width: 620px;
 }
 
