@@ -76,6 +76,9 @@ body {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+
+  display: block;
+  box-sizing: border-box;
 }
 
 /* Стилизация main блока */
@@ -129,6 +132,7 @@ body {
   margin: 0 auto;
 
   color: #333333;
+  text-align: center;
 }
 
 .advantages-list {
@@ -240,6 +244,25 @@ body {
   color: #333333;
 }
 
+.find-hotel {
+  box-sizing: border-box;
+  padding: 96px 304px;
+}
+
+.find-hotel-title {
+  margin-bottom: 20px;
+}
+
+.find-hotel-description {
+  margin-bottom: 54px;
+}
+
+.find-hotel-link {
+  width: 375px;
+
+  margin: 0 auto;
+  padding: 8px 50px;
+}
 /* Стилизация блока подписки */
 .subscribe {
   background-color: #ffffff;
@@ -251,6 +274,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
+
   background-color: #87929b;
   color: #ffffff;
 }
