@@ -60,11 +60,11 @@
             </li>
           </ol>
         </div>
-        <section class="catalog-filter" data-test="filter">
+        <section class="catalog-filter-section" data-test="filter">
           <h2 class="visually-hidden">Выбор услуг проживания</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title">Инфраструктура</legend>
+            <fieldset class="catalog-filter-group catalog-filter-infrastructure">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -86,8 +86,8 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title">Тип жилья</legend>
+            <fieldset class="catalog-filter-group card-filter-living-type">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -109,7 +109,7 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="catalog-filter-group">
+            <fieldset class="catalog-filter-group catalog-filter-price">
               <legend class="catalog-filter-title">Стоимость, ₽:</legend>
               <label class="control-price">
                 <input class="control-price-input" type="number" value="0">
@@ -122,8 +122,10 @@
               <input class="control-price-range" type="text">
               <input class="control-price-range" type="text">
             </fieldset>
-            <button class="button" type="submit">Применить</button>
-            <button class="reset-button button" type="reset">Сбросить</button>
+            <div class="catalog-filter-buttons">
+              <button class="button submit-button" type="submit">Применить</button>
+              <button class="reset-button button" type="reset">Сбросить</button>
+            </div>
           </form>
         </section>
       </header>

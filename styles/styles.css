@@ -363,6 +363,10 @@ body {
   color: #ffffff;
 }
 
+.inner-header-wrapper {
+  margin-bottom: 40px;
+}
+
 .inner-header-title {
   margin: 0;
 
@@ -377,12 +381,57 @@ body {
   text-decoration: none;
 }
 
+.catalog-filter {
+  display: flex;
+  align-items: center;
+}
+
+.catalog-filter-group {
+  padding: 0;
+  min-width: 150px;
+
+  border: none;
+}
+
+.catalog-filter-infrastructure,
+.catalog-filter-price {
+  margin: 0 70px 0 0;
+}
+
+.card-filter-living-type {
+  margin: 0 140px 0 0;
+
+}
+
+.catalog-filter-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .catalog-filter-title {
+  margin-bottom: 32px;
+
   font-weight: 700;
   font-size: 20px;
 }
 
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.catalog-filter-buttons {
+  align-self: flex-end;
+}
+
+.submit-button {
+  margin-bottom: 32px;
+  padding: 8px 50px;
+}
+
 .button {
+  border: none;
+
   font-family: inherit;
   background-color: #82B3D3;
   font-size: 16px;
@@ -394,6 +443,7 @@ body {
 
 .reset-button {
   background: none;
+  padding: 8px 58px;
 }
 
 /* Стилизация карточек отелей */
