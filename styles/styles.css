@@ -141,7 +141,7 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin: 0 auto;
+  margin: 0;
 
   color: #333333;
   text-align: center;
@@ -210,15 +210,10 @@ body {
 
 /* Стилизация блока сервисов */
 .services-container {
-  padding: 64px 148px;
+  padding: 64px 348px;
 }
 .services-title {
-  width: 500px;
   margin-bottom: 20px;
-}
-
-.services-subtitle {
-  width: 490px;
 }
 
 .services-list {
