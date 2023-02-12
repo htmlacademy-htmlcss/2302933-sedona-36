@@ -335,19 +335,17 @@ body {
   margin: 0;
 }
 
-.footer-contacts {
-  width: 720px;
-  text-align: center;
-
-  margin:0 auto;
-}
-
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
   color: inherit;
   text-decoration: none;
+
+  width: 720px;
+  text-align: center;
+
+  margin:0 auto;
 }
 
 /* Стилизация фильтра каталога */
