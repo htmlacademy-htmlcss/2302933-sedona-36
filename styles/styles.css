@@ -65,15 +65,68 @@ body {
 
 .header-row-left {
   display: flex;
-  width: 640px;
+  min-width: 550px;
+}
+
+.logo {
+  display: block;
+}
+
+.logo-link {
+  display: block;
+  margin-bottom: -9px;
+  margin-right: 28px;
+  z-index: 1;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header-row-right {
   display: flex;
-  width: 300px;
+  justify-content: flex-end;
+  min-width: 300px;
+  align-items: center;
+}
+
+.user-menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-link {
+  padding: 22px 12px;
+  display: block;
+  min-width: 20px;
+  min-height: 20px;
+
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-likes {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.likes {
+  background-color: #7DB54F;
 }
 
 .navigation-link {
+  padding: 20px 16px;
+  display: block;
+
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
@@ -86,12 +139,12 @@ body {
   font-weight: 700;
   text-align: center;
   background-color: #756157;
-  color: #ffffff;
-  text-decoration: none;
   text-transform: uppercase;
 
   box-sizing: border-box;
-  display: block;
+  min-width: 160px;
+  padding: 8px 34px;
+  border-radius: 4px;
 }
 
 /* Стилизация main блока */
