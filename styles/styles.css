@@ -98,6 +98,7 @@ body {
 .user-menu {
   padding: 0;
   margin: 0;
+  margin-right: 20px;
   list-style-type: none;
 
   display: flex;
@@ -112,11 +113,6 @@ body {
 
   text-decoration: none;
   color: #ffffff;
-}
-
-.menu-likes {
-  height: 20px;
-  margin-right: 20px;
 }
 
 .likes {
