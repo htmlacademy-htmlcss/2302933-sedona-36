@@ -55,6 +55,19 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
+.link-button {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #756157;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
  /* Стилизация шапки */
 .page-header {
   padding: 0 70px;
@@ -131,16 +144,8 @@ body {
 }
 
 .link-button {
-  font-size: 16px;
-  font-weight: 700;
-  text-align: center;
-  background-color: #756157;
-  text-transform: uppercase;
-
-  box-sizing: border-box;
   min-width: 160px;
   padding: 8px 34px;
-  border-radius: 4px;
 }
 
 /* Стилизация main блока */
