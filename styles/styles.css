@@ -378,6 +378,10 @@ body {
   flex-grow: 1;
 }
 
+.light-theme .subscribe-input {
+  background-color: #F2F2F2;
+}
+
 .subscribe-button {
   display: inline-block;
   min-width: 235px;
