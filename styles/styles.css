@@ -624,14 +624,12 @@ body {
   padding: 0;
   list-style-type: none;
 
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
   gap: 20px;
 }
 
 .hotel-card {
-  box-sizing: border-box;
-  width: 340px;
   padding: 20px;
 
   border: 1px solid #E6E6E6;
@@ -639,6 +637,7 @@ body {
 
 .hotel-card-img {
   margin-bottom: 16px;
+  object-fit: contain;
 }
 
 .hotel-card-title {
@@ -646,6 +645,7 @@ body {
 
   font-weight: 700;
   font-size: 24px;
+  line-height: 28px;
 }
 
 .hotel-card-container {
