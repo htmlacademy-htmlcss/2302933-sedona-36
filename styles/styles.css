@@ -207,13 +207,11 @@ body {
 
   list-style-type: none;
 
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
 }
 
 .advantages-item {
-  width: 400px;
-  box-sizing: border-box;
   text-align: center;
   padding: 113px 85px;
 
@@ -243,7 +241,7 @@ body {
 }
 
 .advantages-item-with-img {
-  width: 1200px;
+  grid-column: 1 / -1;
   display: flex;
 }
 
@@ -256,8 +254,6 @@ body {
   color: #ffffff;
 
   padding: 102px 85px;
-  box-sizing: border-box;
-  width: 400px;
   margin: 0;
   text-align: center;
 }
