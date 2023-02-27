@@ -341,8 +341,20 @@ body {
   background-color: #ffffff;
 }
 
+.services-item-food::before {
+  content: url("../images/icons/icon-burger.svg");
+}
+
+.services-item-living::before {
+  content: url("../images/icons/icon-house.svg");
+}
+
+.services-item-souvenirs::before {
+  content: url("../images/icons/icon-present.svg");
+}
+
 .services-item-title {
-  margin: 0 0 30px;
+  margin: 30px 0;
 
   font-weight: 700;
   font-size: 24px;
@@ -374,6 +386,7 @@ body {
   margin: 0 auto;
   padding: 8px 50px;
 }
+
 /* Стилизация блока подписки */
 .subscribe {
   background-color: #ffffff;
