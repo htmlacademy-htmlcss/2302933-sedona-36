@@ -4,7 +4,7 @@
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: wrap;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,7 +12,7 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: wrap;
+  font-display: swap;
 }
 
 /* Общие стили */
@@ -122,17 +122,21 @@ body {
   padding: 22px 12px;
   display: block;
   min-width: 20px;
-  min-height: 20px;
+  min-height: 15px;
 
   text-decoration: none;
   color: #ffffff;
 }
 
 .likes {
+  display: block;
+  font-size: 10px;
+  line-height: 10px;
   background-color: #7DB54F;
 }
 
 .navigation-link {
+  position: relative;
   padding: 20px 16px;
   display: block;
 
@@ -143,8 +147,16 @@ body {
   background-color: #ffffff;
 }
 
+.navigation-link-current::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 16px;
+  left: 16px;
+  border: 2px solid #756257;
+}
+
 .link-button {
-  min-width: 160px;
   padding: 8px 34px;
 }
 
