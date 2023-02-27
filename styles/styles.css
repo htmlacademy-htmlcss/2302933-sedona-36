@@ -558,6 +558,18 @@ body {
   margin:0 auto;
 }
 
+.contacts-phone:hover {
+  color: #756157;
+}
+
+.contacts-phone:focus {
+  color: #756157;
+}
+
+.contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 /* Стилизация фильтра каталога */
 .inner-header {
   padding: 35px 70px 70px;
