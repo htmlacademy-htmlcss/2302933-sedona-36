@@ -479,8 +479,26 @@ body {
   color: #ffffff;
   border: none;
   border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 
+.subscribe-button:hover {
+  background-color: #68A2CA;
+}
+
+.subscribe-button:focus {
+  background-color: #68A2CA;
+}
+
+.subscribe-button:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-button:disabled {
+  background-color: #E5E5E5;
+  color: #ffffff;
+}
 /* Стилизация подвала */
 .page-footer {
   display: flex;
@@ -499,7 +517,7 @@ body {
   max-width: 240px;
 }
 
-.social-media-button {
+.social-media-link {
   display: block;
   padding: 13px 12px;
   min-width: 24px;
