@@ -119,20 +119,37 @@ body {
 }
 
 .menu-link {
+  position: relative;
+  min-height: 20px;
+  min-width: 20px;
   padding: 22px 12px;
   display: block;
-  min-width: 20px;
-  min-height: 15px;
 
   text-decoration: none;
   color: #ffffff;
 }
 
+.menu-link-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #000000;
+}
+
 .likes {
-  display: block;
+  position: absolute;
+  top: 11px;
+  right: 4px;
+  padding: 5px;
   font-size: 10px;
   line-height: 10px;
+
   background-color: #7DB54F;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .navigation-link {
@@ -142,6 +159,7 @@ body {
 
   font-size: 20px;
   font-weight: 700;
+  line-height: 24px;
   text-decoration: none;
   color: #000000;
   background-color: #ffffff;
