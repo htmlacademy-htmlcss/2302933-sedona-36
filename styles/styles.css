@@ -607,9 +607,22 @@ body {
   align-items: center;
 }
 
+.breadcrumbs-item {
+  display: block;
+  position: relative;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: url("../images/icons/icon-breadcrumbs-arrow.svg");
+  position: absolute;
+  top: 9px;
+  right: 11px;
+}
+
 .breadcrumbs-link {
   display: block;
   padding: 10px;
+  margin-right: 28px;
   min-width: 13px;
   min-height: 15px;
 
@@ -618,8 +631,16 @@ body {
   text-decoration: none;
 }
 
-.breadcrumbs-home-page {
-  margin-right: 28px;
+.breadcrumbs-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:focus {
+  color: inherit;
+}
+
+.breadcrumbs-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .catalog-filter {
