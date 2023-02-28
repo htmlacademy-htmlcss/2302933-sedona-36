@@ -795,14 +795,38 @@ body {
   padding: 16px 17px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hotels-list-view-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.hotel-list-cards {
-  
+.hotels-list-cards {
+  background-image: url("../images/icons/icon-cards.svg");
+}
+
+.hotels-list-slide-show {
+  background-image: url("../images/icons/icon-slide-show.svg");
+}
+
+.hotels-list-list {
+  background-image: url("../images/icons/icon-list.svg");
+}
+
+.hotels-list-button:hover {
+  border-color: #000000;
+}
+
+.hotels-list-button:focus {
+  border-color: #68A2CA;
+  outline: none;
+}
+
+.hotels-list-button:active {
+  border-color: #000000;
 }
 
 .hotels-list-button-active {
