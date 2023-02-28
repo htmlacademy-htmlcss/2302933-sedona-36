@@ -751,6 +751,28 @@ body {
 
   min-width: 292px;
   padding: 14px 20px;
+
+  appearance: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.select-control:hover {
+  border-color: #68A2CA;
+}
+
+.select-control:focus {
+  border-color: #68A2CA;
+}
+
+.select-control:active {
+  border-color: #3F5E72;
+}
+
+.select-control:disabled {
+  border-color: rgba(0, 0, 0, 0.3);
+  color:  rgba(0, 0, 0, 0.3);
 }
 
 .hotels-list-view {
