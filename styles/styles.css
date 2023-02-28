@@ -801,7 +801,11 @@ body {
   margin-right: 8px;
 }
 
-.active-button {
+.hotel-list-cards {
+  
+}
+
+.hotels-list-button-active {
   border: 2px solid #000000;
 }
 
