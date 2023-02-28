@@ -548,7 +548,6 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
-  color: inherit;
   text-decoration: none;
 
   min-width: 400px;
@@ -558,31 +557,19 @@ body {
   margin:0 auto;
 }
 
-.contacts-phone:hover {
+.page-footer-link {
+  color: inherit;
+}
+
+.page-footer-link:hover {
   color: #756157;
 }
 
-.contacts-phone:focus {
+.page-footer-link:focus {
   color: #756157;
 }
 
-.contacts-phone:active {
-  color: rgba(117, 97, 87, 0.3);
-}
-
-.htmlacademy-link {
-  color: #000000;
-}
-
-.htmlacademy-link:hover {
-  color: #756157;
-}
-
-.htmlacademy-link:focus {
-  color: #756157;
-}
-
-.htmlacademy-link:active {
+.page-footer-link:active {
   color: rgba(117, 97, 87, 0.3);
 }
 
