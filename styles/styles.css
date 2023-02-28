@@ -452,7 +452,8 @@ body {
 }
 
 .subscribe-text {
-  margin: 0 0 54px;
+  margin: 0 auto 54px;
+  max-width: 475px;
 
   font-size: 22px;
   line-height: 26px;
