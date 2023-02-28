@@ -68,6 +68,20 @@ body {
   box-sizing: border-box;
 }
 
+.button {
+  border: none;
+  border-radius: 4px;
+
+  font-family: inherit;
+  background-color: #82B3D3;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
  /* Стилизация шапки */
 .page-header {
   padding: 0 70px;
@@ -689,19 +703,6 @@ body {
 .submit-button {
   margin-bottom: 32px;
   padding: 8px 50px;
-}
-
-.button {
-  border: none;
-  border-radius: 4px;
-
-  font-family: inherit;
-  background-color: #82B3D3;
-  font-size: 16px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
 }
 
 .reset-button {
