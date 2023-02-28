@@ -904,8 +904,30 @@ body {
 }
 
 .stars {
-  margin: 0;
-  width: 120px;
+  background-image: url("../images/icons/icon-star.svg");
+  background-position: left;
+  background-repeat: repeat-x;
+  min-height: 19px;
+}
+
+.star-5 {
+  min-width: 120px;
+}
+
+.star-4 {
+  min-width: 96px;
+}
+
+.star-3 {
+  min-width: 72px;
+}
+
+.star-2 {
+  min-width: 48px;
+}
+
+.star-1 {
+  min-width: 24px;
 }
 
 .hotel-card-rating {
