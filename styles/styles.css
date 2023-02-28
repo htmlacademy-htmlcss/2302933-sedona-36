@@ -966,6 +966,23 @@ body {
   padding: 8px 18px;
 }
 
+.pressed-button:hover {
+  background-color: #6C9E42;
+}
+
+.pressed-button:focus {
+  background-color: #6C9E42;
+}
+
+.pressed-button:active {
+  background-color: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.pressed-button:disabled {
+  background-color: #E5E5E5;
+}
+
 .rating-container {
   display: flex;
   justify-content: space-between;
