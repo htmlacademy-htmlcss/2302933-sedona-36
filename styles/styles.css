@@ -227,12 +227,11 @@ body {
   background-color: #797b84;
   min-height: 485px;
   display: flex;
-  align-items: center;
 }
 
 .hero-img {
   display: block;
-  margin: 0 auto;
+  margin: 51px auto 0;
 }
 
 /* Стилизация блока преимуществ */
