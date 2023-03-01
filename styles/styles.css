@@ -221,10 +221,13 @@ body {
 /* Стилизация hero блока */
 .hero {
   background-image: url("../images/divider.svg"), url("../images/hero-background.jpg");
-  background-repeat: no-repeat,no-repeat;
+  background-repeat: no-repeat, no-repeat;
   background-size: 100% auto, 100% auto;
   background-position: bottom center, center;
   background-color: #797b84;
+  min-height: 485px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-img {
@@ -377,19 +380,25 @@ body {
 }
 
 .services-item-food::before {
+  display: block;
+  margin-bottom: 31px;
   content: url("../images/icons/icon-burger.svg");
 }
 
 .services-item-living::before {
+  display: block;
+  margin-bottom: 30px;
   content: url("../images/icons/icon-house.svg");
 }
 
 .services-item-souvenirs::before {
+  display: block;
+  margin-bottom: 28px;
   content: url("../images/icons/icon-present.svg");
 }
 
 .services-item-title {
-  margin: 30px 0;
+  margin: 0 0 30px;
 
   font-weight: 700;
   font-size: 24px;
