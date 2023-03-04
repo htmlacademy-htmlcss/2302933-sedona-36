@@ -669,7 +669,6 @@ body {
 
 .catalog-filter-group {
   padding: 0;
-  min-width: 150px;
 
   border: none;
 }
@@ -695,6 +694,52 @@ body {
 
   font-weight: 700;
   font-size: 20px;
+}
+
+.control {
+  position: relative;
+  padding-left: 36px;
+  display: block;
+  cursor: pointer;
+}
+
+.control-input-mark {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:active {
+  opacity: 0.3;
+  outline: none;
+}
+
+.control-input[type="checkbox"]:checked + .control-input-mark:before {
+  content: url("../images/icons/icon-tick.svg");
+  position: absolute;
+}
+
+.control-input[type="radio"] + .control-input-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-input-mark:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3F5E72;
 }
 
 .catalog-filter-item:not(:last-child) {
