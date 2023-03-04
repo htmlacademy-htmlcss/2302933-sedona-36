@@ -349,7 +349,7 @@ body {
 .advantages-item-with-img .advantages-item-title::after {
   position: absolute;
   content: "";
-  border: 1px solid rgba(255, 255, 255, 0.3);;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   top: 188px;
   left: 170px;
   right: 170px;
@@ -552,7 +552,7 @@ body {
   min-height: 14px;
 
   text-decoration: none;
-  color: #83B3D3;;
+  color: #83B3D3;
 }
 
 .social-media-icon {
@@ -584,7 +584,7 @@ body {
 }
 
 .social-media-link:focus {
-  color:  #68A2CA;
+  color: #68A2CA;
 }
 
 .social-media-link:active {
@@ -975,7 +975,7 @@ body {
 }
 
 .select-control:focus {
-  border-color: #3F5E72;;
+  border-color: #3F5E72;
   outline: none;
 }
 
