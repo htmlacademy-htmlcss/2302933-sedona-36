@@ -711,7 +711,7 @@ body {
 }
 
 .reset-button {
-  background: none;
+  background-color: transparent;
   padding: 8px 58px;
 }
 
@@ -731,17 +731,17 @@ body {
 
 .reset-button:hover {
   opacity: 0.6;
-  background: none;
+  background-color: transparent;
 }
 
 .reset-button:focus {
   outline: 3px solid #83B3D3;
-  background: none;
+  background-color: transparent;
 }
 
 .reset-button:active {
   color: rgba(255, 255, 255, 0.3);
-  background: none;
+  background-color: transparent;
 }
 
 .reset-button:disabled {
