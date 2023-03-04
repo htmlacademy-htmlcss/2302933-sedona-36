@@ -669,7 +669,6 @@ body {
 
 .catalog-filter-group {
   padding: 0;
-
   border: none;
 }
 
@@ -681,6 +680,10 @@ body {
 .card-filter-living-type {
   margin: 0 140px 0 0;
 
+}
+
+.catalog-filter-price {
+  min-width: 287px;
 }
 
 .catalog-filter-list {
@@ -744,6 +747,38 @@ body {
 
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 16px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  background-color: #ffffff;
+  height: 4px;
+}
+
+.range-toggle {
+  position: absolute;
+  padding: 0;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  cursor: pointer;
+}
+
+.toggle-min {
+  left: -10px;
+}
+
+.toggle-max {
+  right: -10px;
 }
 
 .catalog-filter-buttons {
