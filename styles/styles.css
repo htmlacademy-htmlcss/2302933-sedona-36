@@ -1281,3 +1281,143 @@ body {
 .pagination-show-more:active {
   background-color: #E6E6E6;
 }
+
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 2;
+  display: flex;
+  background-color: rgb(242, 242, 242, 0.6);
+}
+
+.modal {
+  padding: 64px 70px;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+.modal-find-hotel {
+  width: 717px;
+}
+
+.modal-button-close {
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  top: 64px;
+  right: 52px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+
+  background-image: url("../images/icons/icon-cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modal-title {
+  text-align: start;
+  margin-bottom: 64px;
+}
+
+.modal-content-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.modal-content-label-text {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 46px;
+}
+
+.label-text-arriving {
+  margin-right: 24px;
+}
+
+.label-text-leaving {
+  margin-right: 18px;
+}
+
+.modal-content-input {
+  flex-grow: 1;
+  display: block;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font: inherit;
+  appearance: none;
+
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.inner-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-content-buttons-container {
+  position: relative;
+}
+
+.modal-content-input[type="number"] {
+  flex-grow: 0;
+  width: 110px;
+  padding: 14px 50px;
+  box-sizing: border-box;
+  line-height: 20px;
+}
+
+.modal-content-input::-webkit-outer-spin-button,
+.modal-content-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.modal-content-button {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-10px);
+  color: #000000;
+}
+
+.minus-button {
+  left: 13px;
+  padding: 9px 3px;
+}
+
+.plus-button {
+  padding: 3px;
+  right: 13px;
+}
+
+.modal-content-button-icon {
+  display: block;
+}
+
+
+.modal-submit-button {
+  min-width: 100%;
+  display: block;
+  padding: 18px 0;
+  line-height: 24px;
+  border-radius: 10px;
+}
