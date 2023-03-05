@@ -200,6 +200,14 @@ body {
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
 
+.navigation-link:hover {
+  background-color: #F2F2F2;
+}
+
+.navigation-link:active {
+  background-color: #E6E6E6;
+}
+
 .menu-link:hover {
   background-color: #F2F2F2;
 }
