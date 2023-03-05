@@ -694,6 +694,7 @@ body {
 
 .catalog-filter-title {
   margin-bottom: 32px;
+  line-height: 24px;
 
   font-weight: 700;
   font-size: 20px;
@@ -752,7 +753,7 @@ body {
 .inputs-wrapper {
   max-width: 100%;
   display: flex;
-  margin-bottom: 36px;
+  margin-bottom: 42px;
 }
 
 .control-price {
@@ -774,7 +775,10 @@ body {
   width: 143px;
   box-sizing: border-box;
   padding: 12px 50px 12px 20px;
-  font: inherit;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
   background-color: #F2F2F2;
   border: none;
   border-radius: 0 4px 4px 0;
@@ -794,6 +798,7 @@ body {
 
 .range-scale {
   position: relative;
+  margin-bottom: 8px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
 }
