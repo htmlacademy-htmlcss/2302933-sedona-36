@@ -145,6 +145,7 @@ body {
   display: block;
 
   text-decoration: none;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
@@ -199,12 +200,12 @@ body {
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
 
-.menu-link:hover  .menu-link-icon {
-  color: rgba(0, 0, 0, 0.6);
+.menu-link:hover {
+  background-color: #F2F2F2;
 }
 
-.menu-link:active  .menu-link-icon {
-  color: rgba(0, 0, 0, 0.3);
+.menu-link:active {
+  background-color: #E6E6E6;
 }
 
 .link-button:hover {
