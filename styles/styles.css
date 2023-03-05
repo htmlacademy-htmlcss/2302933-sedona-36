@@ -1358,6 +1358,7 @@ body {
   background-color: #F2F2F2;
   border-radius: 4px;
   padding: 12px 20px;
+  padding-right: 45px;
   font: inherit;
   appearance: none;
 
@@ -1365,6 +1366,12 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.modal-content-input-icon {
+  background-image: url("../images/icons/icon-calendar.svg");
+  background-repeat: no-repeat;
+  background-position: right 22px center;
 }
 
 .inner-content-container {
