@@ -1402,7 +1402,7 @@ body {
   cursor: pointer;
   top: 50%;
   transform: translateY(-10px);
-  color: #000000;
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .minus-button {
@@ -1442,4 +1442,17 @@ body {
 }
 .modal-button-close:active .modal-button-close-icon {
   opacity: 0.3;
+}
+
+.modal-content-button:hover {
+  color: #000000;
+}
+
+.modal-content-button:focus {
+  outline: 3px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.modal-content-button:active {
+  color: rgb(0, 0, 0, 0.3);
 }
