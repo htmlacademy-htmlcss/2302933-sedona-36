@@ -200,6 +200,14 @@ body {
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
 
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
 .navigation-link:hover {
   background-color: #F2F2F2;
 }
