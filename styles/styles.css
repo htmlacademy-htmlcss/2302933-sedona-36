@@ -749,6 +749,49 @@ body {
   margin-bottom: 16px;
 }
 
+.inputs-wrapper {
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.control-price {
+  position: relative;
+}
+
+.control-price-label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  margin-top: -12px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.control-price-input {
+  display: block;
+  margin: 0;
+  width: 143px;
+  box-sizing: border-box;
+  padding: 12px 50px 12px 20px;
+  font: inherit;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  appearance: none;
+}
+
+.control-price-input-left {
+  border-radius: 4px 0 0 4px;
+  margin-right: 2px;
+}
+
+.control-price-input::-webkit-outer-spin-button,
+.control-price-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
 .range-scale {
   position: relative;
   height: 4px;
@@ -774,7 +817,7 @@ body {
 }
 
 .toggle-min {
-  left: -10px;
+  left: 0;
 }
 
 .toggle-max {
