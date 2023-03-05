@@ -1282,7 +1282,6 @@ body {
   background-color: #E6E6E6;
 }
 
-
 .modal-container {
   position: fixed;
   top: 0;
@@ -1314,13 +1313,13 @@ body {
   cursor: pointer;
   top: 64px;
   right: 52px;
-  width: 52px;
-  height: 52px;
+  padding: 19px;
   border-radius: 50%;
+}
 
-  background-image: url("../images/icons/icon-cross.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.modal-button-close-icon {
+  color: #000000;
+  display: block;
 }
 
 .modal-title {
@@ -1427,4 +1426,20 @@ body {
   padding: 18px 0;
   line-height: 24px;
   border-radius: 10px;
+}
+
+.modal-button-close:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-button-close:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.modal-button-close:active {
+  background-color: #E6E6E6;
+}
+.modal-button-close:active .modal-button-close-icon {
+  opacity: 0.3;
 }
