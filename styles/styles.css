@@ -1411,6 +1411,7 @@ body {
   border: none;
   cursor: pointer;
   top: 50%;
+  background-color: transparent;
   transform: translateY(-10px);
   color: rgb(0, 0, 0, 0.3);
 }
@@ -1438,6 +1439,15 @@ body {
   text-decoration: none;
 }
 
+.modal-content-input:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-content-input:focus {
+  outline: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+}
+
 .modal-button-close:hover {
   background-color: #E6E6E6;
 }
@@ -1450,6 +1460,7 @@ body {
 .modal-button-close:active {
   background-color: #E6E6E6;
 }
+
 .modal-button-close:active .modal-button-close-icon {
   opacity: 0.3;
 }
@@ -1466,6 +1477,8 @@ body {
 .modal-content-button:active {
   color: rgb(0, 0, 0, 0.3);
 }
+
+/* TOOLTIP */
 
 .tooltip-container {
   margin-right: 46px;
@@ -1508,9 +1521,21 @@ body {
   z-index: 1;
 
   position: absolute;
-  left: -108px;
-  top: 35px;
+  left: -116px;
+  top: 41px;
   display: none;
+}
+
+.tooltip-text::after {
+  content: '';
+  width: 19px;
+  height: 9px;
+  bottom: 100%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  background-image: url("../images/icons/icon-tooltip-triangle.svg");
 }
 
 .tooltip-button:hover + .tooltip-text,

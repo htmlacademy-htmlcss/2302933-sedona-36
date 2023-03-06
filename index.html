@@ -177,23 +177,23 @@
             <form class="modal-content-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="modal-content-container">
                 <label class="modal-content-label label-arriving" for="trip-start">Дата Заезда:</label>
-                <input class="modal-content-input modal-content-input-icon" id="trip-start" name="trip-start" type="text" value="27 апреля 2020" >
+                <input class="modal-content-input modal-content-input-icon" id="trip-start" name="trip-start" type="text" placeholder="Укажите дату">
               </div>
               <div class="modal-content-container">
                 <label class="modal-content-label label-leaving" for="trip-end">Дата Выезда:</label>
-                <input class="modal-content-input modal-content-input-icon" id="trip-end" name="trip-end" type="text" value="1 сентября 2023" >
+                <input class="modal-content-input modal-content-input-icon" id="trip-end" name="trip-end" type="text" placeholder="Укажите дату">
               </div>
               <div class="inner-content-container">
                 <div class="modal-counter-container">
                   <label class="modal-content-label" for="adults">Взрослые:</label>
                     <div class="modal-content-buttons-container">
+                      <input class="modal-content-input" type="number" value="2" id="adults">
                       <button class="modal-content-button minus-button" type="button">
                         <span class="visually-hidden">Уменьшить значение.</span>
                         <svg class="modal-content-button-icon" aria-hidden="true" focusable="false" width="14" height="2" viewBox="0 0 14 2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0 0L0 2L14 2V0L0 0Z"/>
                         </svg>
                       </button>
-                      <input class="modal-content-input" type="number" value="2" id="adults">
                       <button class="modal-content-button plus-button" type="button">
                         <span class="visually-hidden">Увеличить значение.</span>
                         <svg class="modal-content-button-icon" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -206,12 +206,12 @@
                   <div class="tooltip-container">
                     <label class="modal-content-label label-text-tooltip" for="kids">Дети:</label>
                     <div class="tooltip">
-                      <button class="tooltip-button" type="button">
+                      <button class="tooltip-button" type="button" aria-labelledby="tooltip-kids-amount">
                         <svg class="tooltip-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M9 4H11V6H9V4ZM11 16H9V7H11V16Z" />
                         </svg>
                       </button>
-                      <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                      <span class="tooltip-text" role="tooltip" id="tooltip-kids-amount">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
                     </div>
                   </div>
                   <div class="modal-content-buttons-container">
