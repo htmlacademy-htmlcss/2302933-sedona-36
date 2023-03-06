@@ -1293,6 +1293,10 @@ body {
   background-color: rgb(242, 242, 242, 0.6);
 }
 
+.modal-closed {
+  display: none;
+}
+
 .modal {
   padding: 64px 70px;
   box-sizing: border-box;
@@ -1418,7 +1422,6 @@ body {
 .modal-content-button-icon {
   display: block;
 }
-
 
 .modal-submit-button {
   min-width: 100%;
