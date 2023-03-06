@@ -1332,25 +1332,24 @@ body {
 }
 
 .modal-content-label {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-bottom: 48px;
-}
-
-.modal-content-label-text {
-  display: block;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   margin-right: 46px;
 }
 
-.label-text-arriving {
+.modal-content-container {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.label-arriving {
   margin-right: 24px;
 }
 
-.label-text-leaving {
+.label-leaving {
   margin-right: 18px;
 }
 
@@ -1379,7 +1378,14 @@ body {
 
 .inner-content-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.modal-counter-container {
+  display: flex;
+  align-items: center;
 }
 
 .modal-content-buttons-container {
@@ -1429,6 +1435,7 @@ body {
   padding: 18px 0;
   line-height: 24px;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .modal-button-close:hover {
@@ -1458,4 +1465,55 @@ body {
 
 .modal-content-button:active {
   color: rgb(0, 0, 0, 0.3);
+}
+
+.tooltip-container {
+  margin-right: 46px;
+  margin-left: auto;
+}
+
+.label-text-tooltip {
+  margin-right: 10px;
+}
+
+.tooltip {
+  display: inline-block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+}
+
+.tooltip-button {
+  cursor: pointer;
+  padding: 3px;
+  background-color: #83B3D3;
+  border-radius: 50%;
+  border: none;
+}
+
+.tooltip-icon {
+  color: #ffffff;
+  display: block;
+}
+
+.tooltip-text {
+  width: 216px;
+  background-color:  #333333;
+  padding: 21px 18px 21px 22px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  z-index: 1;
+
+  position: absolute;
+  left: -108px;
+  top: 35px;
+  display: none;
+}
+
+.tooltip-button:hover + .tooltip-text,
+.tooltip-button:focus + .tooltip-text {
+  display: block;
 }
