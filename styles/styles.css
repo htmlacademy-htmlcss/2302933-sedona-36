@@ -1437,6 +1437,17 @@ body {
   line-height: 24px;
   border-radius: 10px;
   text-decoration: none;
+  background-color: #83B3D3;
+}
+
+.modal-submit-button:hover,
+.modal-submit-button:focus {
+  background-color: #68A2CA;
+}
+
+.modal-submit-button:active {
+  background-color: #68A2CA;
+  color: rgba(255, 255, 255, 0.3)
 }
 
 .modal-content-input:hover {
