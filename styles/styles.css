@@ -750,15 +750,6 @@ body {
   background-color: #ffffff;
 }
 
-.control:hover {
-  opacity: 0.6;
-}
-
-.control:active {
-  opacity: 0.3;
-  outline: none;
-}
-
 .control-input[type="checkbox"]:checked + .control-input-mark:before {
   content: url("../images/icons/icon-tick.svg");
   position: absolute;
@@ -889,6 +880,19 @@ body {
 
 .breadcrumbs-link:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:active {
+  opacity: 0.3;
+  outline: none;
+}
+
+.control-input:focus + .control-input-mark {
+  outline: 3px solid #83B3D3;
 }
 
 .control-price-input:hover {
