@@ -1114,9 +1114,10 @@ body {
 .hotel-card-rating {
   width: 140px;
   box-sizing: border-box;
-  padding: 9px 22px;
+  padding: 9px 22px 8px 23px;
 
   font-size: 16px;
+  line-height: 20px;
   text-align: center;
   color: #333333;
   text-transform: uppercase;
