@@ -269,6 +269,7 @@ body {
 
 .advantages-container {
   padding: 69px 275px;
+  margin-bottom: 21px;
 }
 
 .container-title {
@@ -456,7 +457,10 @@ body {
 }
 
 .find-hotel-link {
-  width: 375px;
+  max-width: 375px;
+  line-height: 36px;
+  font-size: 20px;
+  box-sizing: content-box;
 
   margin: 0 auto;
   padding: 8px 50px;
@@ -551,15 +555,24 @@ body {
   color: #ffffff;
 }
 
+.subscribe-input:hover {
+  background-color: #E6E6E6;
+}
+
+.subscribe-input:focus {
+  outline: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+}
+
 /* ПОДВАЛ */
 
 .page-footer {
   display: flex;
-  padding: 40px 40px 30px;
+  padding: 45px 70px 35px;
   align-items: center;
 }
 
-.social-media-list {
+.socials-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -570,7 +583,7 @@ body {
   max-width: 240px;
 }
 
-.social-media-link {
+.socials-link {
   display: block;
   padding: 12px 13px;
   min-width: 24px;
@@ -580,7 +593,7 @@ body {
   color: #83B3D3;
 }
 
-.social-media-icon {
+.socials-icon {
   display: block;
   margin: 0 auto;
 }
@@ -604,15 +617,15 @@ body {
 
 /* СОСТОЯНИЯ ЭЛЕНТОВ */
 
-.social-media-link:hover {
+.socials-link:hover {
   color: #68A2CA;
 }
 
-.social-media-link:focus {
+.socials-link:focus {
   color: #68A2CA;
 }
 
-.social-media-link:active {
+.socials-link:active {
   color: rgba(104, 162, 202, 0.3);
 }
 
@@ -739,15 +752,6 @@ body {
   height: 20px;
   border-radius: 4px;
   background-color: #ffffff;
-}
-
-.control:hover {
-  opacity: 0.6;
-}
-
-.control:active {
-  opacity: 0.3;
-  outline: none;
 }
 
 .control-input[type="checkbox"]:checked + .control-input-mark:before {
@@ -880,6 +884,19 @@ body {
 
 .breadcrumbs-link:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:active {
+  opacity: 0.3;
+  outline: none;
+}
+
+.control-input:focus + .control-input-mark {
+  outline: 3px solid #83B3D3;
 }
 
 .control-price-input:hover {
@@ -1101,9 +1118,10 @@ body {
 .hotel-card-rating {
   width: 140px;
   box-sizing: border-box;
-  padding: 9px 22px;
+  padding: 9px 22px 8px 23px;
 
   font-size: 16px;
+  line-height: 20px;
   text-align: center;
   color: #333333;
   text-transform: uppercase;
@@ -1275,6 +1293,10 @@ body {
 }
 
 .pagination-show-more:hover {
+  background-color: #F2F2F2;
+}
+
+.pagination-show-more:focus {
   background-color: #F2F2F2;
 }
 
