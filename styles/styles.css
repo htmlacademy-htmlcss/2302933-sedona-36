@@ -1361,7 +1361,7 @@ body {
 }
 
 .modal-content-container {
-  margin-bottom: 48px;
+  margin-bottom: 23px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -1396,6 +1396,19 @@ body {
   background-image: url("../images/icons/icon-calendar.svg");
   background-repeat: no-repeat;
   background-position: right 22px center;
+}
+
+.modal-input-data-text {
+  font-size: 16px;
+  margin: 4px 0 0 157px;
+}
+
+.modal-input-data-error {
+  color: #FF5757;
+}
+
+.modal-input-data-ok {
+  color: #333333;
 }
 
 .inner-content-container {
