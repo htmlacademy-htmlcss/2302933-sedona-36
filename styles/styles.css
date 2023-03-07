@@ -551,6 +551,15 @@ body {
   color: #ffffff;
 }
 
+.subscribe-input:hover {
+  background-color: #E6E6E6;
+}
+
+.subscribe-input:focus {
+  outline: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+}
+
 /* ПОДВАЛ */
 
 .page-footer {
