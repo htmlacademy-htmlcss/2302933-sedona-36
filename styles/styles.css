@@ -1287,6 +1287,10 @@ body {
   background-color: #F2F2F2;
 }
 
+.pagination-show-more:focus {
+  background-color: #F2F2F2;
+}
+
 .pagination-show-more:active {
   background-color: #E6E6E6;
 }
