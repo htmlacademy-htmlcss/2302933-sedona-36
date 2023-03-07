@@ -559,7 +559,7 @@ body {
   align-items: center;
 }
 
-.social-media-list {
+.socials-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -570,7 +570,7 @@ body {
   max-width: 240px;
 }
 
-.social-media-link {
+.socials-link {
   display: block;
   padding: 12px 13px;
   min-width: 24px;
@@ -580,7 +580,7 @@ body {
   color: #83B3D3;
 }
 
-.social-media-icon {
+.socials-icon {
   display: block;
   margin: 0 auto;
 }
@@ -604,15 +604,15 @@ body {
 
 /* СОСТОЯНИЯ ЭЛЕНТОВ */
 
-.social-media-link:hover {
+.socials-link:hover {
   color: #68A2CA;
 }
 
-.social-media-link:focus {
+.socials-link:focus {
   color: #68A2CA;
 }
 
-.social-media-link:active {
+.socials-link:active {
   color: rgba(104, 162, 202, 0.3);
 }
 
