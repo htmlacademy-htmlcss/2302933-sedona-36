@@ -60,6 +60,7 @@ body {
 .link-button {
   font-size: 16px;
   font-weight: 700;
+  line-height: 20px;
   text-align: center;
   background-color: #756157;
   text-transform: uppercase;
@@ -188,7 +189,7 @@ body {
 .navigation-link-current::after {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -1px;
   right: 16px;
   left: 16px;
   border: 1px solid #756257;
@@ -413,19 +414,19 @@ body {
 
 .services-item-food::before {
   display: block;
-  margin-bottom: 31px;
+  margin-bottom: 26px;
   content: url("../images/icons/icon-burger.svg");
 }
 
 .services-item-living::before {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   content: url("../images/icons/icon-house.svg");
 }
 
 .services-item-souvenirs::before {
   display: block;
-  margin-bottom: 28px;
+  margin-bottom: 23px;
   content: url("../images/icons/icon-present.svg");
 }
 
@@ -434,6 +435,7 @@ body {
 
   font-weight: 700;
   font-size: 24px;
+  line-height: 28px;
   text-transform: uppercase;
 }
 
@@ -457,10 +459,9 @@ body {
 }
 
 .find-hotel-link {
-  max-width: 375px;
+  width: fit-content;
   line-height: 36px;
   font-size: 20px;
-  box-sizing: content-box;
 
   margin: 0 auto;
   padding: 8px 50px;
@@ -518,6 +519,7 @@ body {
   border: none;
   border-radius: 4px 0 0 4px;
   padding: 14px 20px;
+  background-color: #F2F2F2;
 
   flex-grow: 1;
 }
@@ -527,8 +529,6 @@ body {
 }
 
 .subscribe-button {
-  display: inline-block;
-  min-width: 235px;
 
   font-size: 20px;
   line-height: 36px;
@@ -585,7 +585,7 @@ body {
 
 .socials-link {
   display: block;
-  padding: 12px 13px;
+  padding: 11px 12px;
   min-width: 24px;
   min-height: 14px;
 
