@@ -578,9 +578,8 @@ body {
   margin: 0;
 
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  min-width: 142px;
-  max-width: 240px;
 }
 
 .socials-link {
@@ -656,12 +655,11 @@ body {
 }
 
 .inner-header-wrapper {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .inner-header-title {
   margin: 0;
-  margin-bottom: 8px;
 
   font-size: 60px;
   font-weight: 700;
@@ -716,12 +714,8 @@ body {
 }
 
 .card-filter-living-type {
-  margin: 0 140px 0 0;
+  margin: 0 150px 0 0;
 
-}
-
-.catalog-filter-price {
-  min-width: 287px;
 }
 
 .catalog-filter-list {
@@ -733,12 +727,14 @@ body {
 .catalog-filter-title {
   margin-bottom: 32px;
   line-height: 24px;
+  padding: 0;
 
   font-weight: 700;
   font-size: 20px;
 }
 
 .control {
+  line-height: 23px;
   position: relative;
   padding-left: 36px;
   display: block;
@@ -855,7 +851,7 @@ body {
 }
 
 .toggle-max {
-  right: -10px;
+  right: 0;
 }
 
 .catalog-filter-buttons {
@@ -950,7 +946,6 @@ body {
 .catalog-hotels-filter {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   margin-bottom: 40px;
 }
@@ -983,6 +978,8 @@ body {
   background-position: right 20px center;
 
   padding-right: 40px;
+  margin-left: auto;
+  margin-right: 70px;
 }
 
 .select-control:disabled {
@@ -1003,9 +1000,10 @@ body {
   min-width: 16px;
   min-height: 14px;
 
-  padding: 16px 17px;
+  padding: 15px 14px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  cursor: pointer;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -1029,8 +1027,9 @@ body {
 
 .hotels-list {
   margin: 0;
-  margin-bottom: 80px;
-  padding: 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 0 0 39px 0;
   list-style-type: none;
 
   display: grid;
@@ -1042,6 +1041,7 @@ body {
   padding: 20px;
 
   border: 1px solid #E6E6E6;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
 }
