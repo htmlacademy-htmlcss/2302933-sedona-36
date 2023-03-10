@@ -1486,12 +1486,22 @@ body {
   color: rgba(255, 255, 255, 0.3)
 }
 
+.modal-submit-button:disabled {
+  opacity: 0.3;
+  background-color: #68A2CA;
+}
+
 .modal-content-input:hover {
   background-color: #E6E6E6;
 }
 
 .modal-content-input:focus {
   outline: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+}
+
+.modal-content-input:disabled {
+  opacity: 0.3;
   background-color: #E6E6E6;
 }
 
@@ -1525,6 +1535,9 @@ body {
   color: rgb(0, 0, 0, 0.3);
 }
 
+.modal-content-button:disabled {
+  color: rgb(0, 0, 0, 0.3);
+}
 /* TOOLTIP */
 
 .tooltip-container {
