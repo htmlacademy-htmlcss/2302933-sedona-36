@@ -807,7 +807,7 @@ body {
   background-color: #F2F2F2;
   border: none;
   border-radius: 0 4px 4px 0;
-  appearance: none;
+  appearance: textfield;
 }
 
 .control-price-input-left {
@@ -1433,6 +1433,7 @@ body {
   padding: 14px 50px;
   box-sizing: border-box;
   line-height: 20px;
+  appearance: textfield;
 }
 
 .modal-content-input::-webkit-outer-spin-button,
