@@ -697,7 +697,6 @@ body {
 .catalog-filter {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .catalog-filter-group {
