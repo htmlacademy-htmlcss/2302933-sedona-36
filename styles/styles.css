@@ -981,6 +981,7 @@ body {
   background-image: url("../images/icons/icon-arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  background-color: #ffffff;
 
   padding-right: 40px;
   margin-left: auto;
