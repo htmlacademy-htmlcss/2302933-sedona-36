@@ -98,7 +98,6 @@ body {
 
 .header-row-left {
   display: flex;
-  min-width: 550px;
 }
 
 .logo {
@@ -110,6 +109,10 @@ body {
   margin-bottom: -9px;
   margin-right: 28px;
   z-index: 1;
+}
+
+.page-navigation {
+  max-width: 400px;
 }
 
 .navigation-list {
@@ -124,7 +127,7 @@ body {
 .header-row-right {
   display: flex;
   justify-content: flex-end;
-  min-width: 300px;
+  max-width: 300px;
   align-items: center;
 }
 
@@ -269,7 +272,7 @@ body {
 /* БЛОК ПРЕИМУЩЕСТВ */
 
 .advantages-container {
-  padding: 69px 275px;
+  padding: 69px 170px;
   margin-bottom: 21px;
 }
 
@@ -287,15 +290,11 @@ body {
   margin-bottom: 25px;
 }
 
-.advantages-description {
-  width: 655px;
-}
-
 .container-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin: 0;
+  margin: 0 auto;
 
   color: #333333;
   text-align: center;
@@ -312,7 +311,6 @@ body {
 }
 
 .advantages-item {
-  position: relative;
   text-align: center;
   padding: 113px 85px;
 
@@ -330,24 +328,25 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-item .advantages-item-title::after {
-  position: absolute;
-  content: "";
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  top: 198px;
-  left: 170px;
-  right: 170px;
-}
-
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-item-description {
+  position: relative;
   color: #333333;
 
   margin: 0;
-  width: 230px;
+}
+
+.advantages-item-description::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 85px;
+  top: -32px;
 }
 
 .advantages-item-with-img {
@@ -373,13 +372,8 @@ body {
   color: #ffffff;
 }
 
-.advantages-item-with-img .advantages-item-title::after {
-  position: absolute;
-  content: "";
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  top: 188px;
-  left: 170px;
-  right: 170px;
+.advantages-item-with-img .advantages-item-description::before {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* БЛОК СЕРВИСОВ */
@@ -393,6 +387,7 @@ body {
 
 .services-list {
   display: flex;
+  flex-wrap: wrap;
 
   padding: 0;
   margin: 0;
@@ -603,7 +598,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 
-  min-width: 400px;
+  max-width: 450px;
   display: block;
   text-align: center;
 
@@ -671,6 +666,7 @@ body {
   padding: 0;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -701,16 +697,22 @@ body {
 .catalog-filter {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .catalog-filter-group {
   padding: 0;
   border: none;
+  max-width: 150px;
 }
 
 .catalog-filter-infrastructure,
 .catalog-filter-price {
   margin: 0 70px 0 0;
+}
+
+.catalog-filter-price {
+  max-width: 288px;
 }
 
 .card-filter-living-type {
@@ -856,6 +858,7 @@ body {
 
 .catalog-filter-buttons {
   align-self: flex-end;
+  max-width: 191px;
 }
 
 .submit-button {
@@ -955,7 +958,9 @@ body {
 
   font-weight: 700;
   font-size: 30px;
+  line-height: 36px;
   text-transform: uppercase;
+  max-width: 400px;
 }
 
 .select-control {
@@ -966,6 +971,7 @@ body {
   font-size: 18px;
 
   min-width: 292px;
+  max-width: 350px;
   padding: 12px 20px;
 
   appearance: none;
@@ -1033,8 +1039,8 @@ body {
   list-style-type: none;
 
   display: grid;
-  grid-template-columns: repeat(3, 340px);
-  gap: 20px;
+  grid-template-columns: repeat(3, 342px);
+  gap: 18px;
 }
 
 .hotel-card {
@@ -1075,7 +1081,7 @@ body {
 
 .card-living-type {
   display: inline-block;
-  width: 130px;
+  max-width: 130px;
 
   color: #333333;
 }
@@ -1083,7 +1089,7 @@ body {
 .hotel-card-price {
   text-align: end;
   display: inline-block;
-  width: 140px;
+  max-width: 140px;
 
   color: #333333;
 }
@@ -1139,14 +1145,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
-  align-items: center;
 }
 
 .hotel-card-link {
   padding: 8px 26px;
 
-  display: block;
-  min-width: 140px;
+  margin-right: 20px;
 }
 
 .like-button {
@@ -1212,50 +1216,50 @@ body {
   list-style-type: none;
 
   display: flex;
-}
-
-.pagination-item:not(:last-child) {
-  margin-right: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .pagination-link {
-  padding: 12px 24px;
-  height: 60px;
-  width: 60px;
+  display: block;
+  padding: 11px 23px;
+  min-height: 60px;
+  min-width: 60px;
   box-sizing: border-box;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border: 1px solid #82B3D3;
 
   background-color: #82B3D3;
+  line-height: 36px;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
   text-decoration: none;
   border-radius: 4px;
 }
 
-.pagination-item-big-number {
-  padding: 12px 18px;
+.pagination-link-big-number {
+  padding: 11px 17px;
 }
 
 .pagination-show-more {
-  height: 100%;
-  padding: 9px 21px;
-  border: none;
+  min-width: 60px;
+  min-height: 60px;
+  padding: 8px 20px;
+  border: 1px solid transparent;
 
   color: inherit;
   font-family: inherit;
   font-size: 22px;
-  font-weight: 400;
+  line-height: 26px;
   background-color: inherit;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .pagination-current {
+  border: 1px solid #F2F2F2;
   background-color: #F2F2F2;
   color: #000000;
 }
@@ -1279,12 +1283,12 @@ body {
 
 .pagination-current:hover {
   background-color: #F2F2F2;
-  border: none;
+  border: 1px solid #F2F2F2;
 }
 
 .pagination-current:focus {
   background-color: #F2F2F2;
-  border: none;
+  border: 1px solid #F2F2F2;
 }
 
 .pagination-current:active {
@@ -1294,14 +1298,17 @@ body {
 
 .pagination-show-more:hover {
   background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
 }
 
 .pagination-show-more:focus {
   background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
 }
 
 .pagination-show-more:active {
   background-color: #E6E6E6;
+  border: 1px solid #E6E6E6;
 }
 
 .modal-container {
@@ -1327,6 +1334,9 @@ body {
   background-color: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
+  max-width: 750px;
+  max-height: 600px;
+  overflow: auto;
 }
 
 .modal-find-hotel {
@@ -1351,6 +1361,7 @@ body {
 .modal-title {
   text-align: start;
   margin-bottom: 64px;
+  max-width: 470px;
 }
 
 .modal-content-label {
@@ -1469,7 +1480,7 @@ body {
 .modal-submit-button {
   min-width: 100%;
   display: block;
-  padding: 18px 0;
+  padding: 18px 20px;
   line-height: 24px;
   border-radius: 10px;
   text-decoration: none;
