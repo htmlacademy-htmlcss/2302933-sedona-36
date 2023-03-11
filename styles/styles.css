@@ -906,6 +906,11 @@ body {
   outline: none;
 }
 
+.control.disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
 .control-input:focus + .control-input-mark {
   outline: 3px solid #83B3D3;
 }
@@ -917,6 +922,12 @@ body {
 .control-price-input:focus {
   background-color: #E6E6E6;
   outline: 3px solid #83B3D3;
+}
+
+.control-price-input:disabled {
+  background-color: #E6E6E6;
+  cursor: default;
+  opacity: 0.3;
 }
 
 .range-toggle:hover {
@@ -931,6 +942,13 @@ body {
 .range-toggle:active {
   outline: 2px solid #83B3D3;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.range-toggle:disabled {
+  background-color: #808080;
+  box-shadow: none;
+  outline: none;
+  cursor: default;
 }
 
 .reset-button:hover {
@@ -950,6 +968,7 @@ body {
 
 .reset-button:disabled {
   opacity: 0.1;
+  background-color: transparent;
 }
 
 /* КАРТОЧКИ ОТЕЛЕЙ */
