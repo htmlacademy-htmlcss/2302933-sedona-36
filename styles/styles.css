@@ -651,7 +651,7 @@ body {
 }
 
 .inner-header-wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .inner-header-title {
@@ -781,7 +781,7 @@ body {
 .inputs-wrapper {
   max-width: 100%;
   display: flex;
-  margin-bottom: 42px;
+  margin-bottom: 45px;
 }
 
 .control-price {
@@ -948,7 +948,7 @@ body {
 /* КАРТОЧКИ ОТЕЛЕЙ */
 
 .catalog-hotels {
-  padding: 50px 70px 60px;
+  padding: 50px 68px 60px;
 }
 
 .catalog-hotels-filter {
@@ -977,7 +977,7 @@ body {
 
   min-width: 292px;
   max-width: 320px;
-  padding: 12px 20px;
+  padding: 12px 18px;
 
   appearance: none;
   border: 2px solid #E5E5E5;
@@ -1190,7 +1190,7 @@ body {
 }
 
 .hotels-list-button-active {
-  border: 2px solid #000000;
+  border-color: #000000;
 }
 
 .pressed-button {
@@ -1486,6 +1486,7 @@ body {
 }
 
 .modal-submit-button {
+  font-size: 20px;
   min-width: 100%;
   display: block;
   padding: 18px 20px;
@@ -1560,7 +1561,7 @@ body {
 /* TOOLTIP */
 
 .tooltip-container {
-  margin-right: 46px;
+  margin-right: 72px;
   margin-left: auto;
 }
 
@@ -1589,9 +1590,10 @@ body {
 }
 
 .tooltip-text {
-  width: 216px;
+  box-sizing: border-box;
+  width: 256px;
   background-color:  #333333;
-  padding: 21px 18px 21px 22px;
+  padding: 19px 22px 24px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -1601,7 +1603,7 @@ body {
 
   position: absolute;
   left: -116px;
-  top: 41px;
+  top: 40px;
   display: none;
 }
 
@@ -1611,7 +1613,7 @@ body {
   height: 9px;
   bottom: 100%;
   right: 0;
-  left: 0;
+  left: -1px;
   margin: 0 auto;
   position: absolute;
   background-image: url("../images/icons/icon-tooltip-triangle.svg");
