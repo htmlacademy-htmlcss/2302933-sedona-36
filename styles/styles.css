@@ -546,8 +546,10 @@ body {
 }
 
 .button:disabled {
-  background-color: #E5E5E5;
+  background-color: #68A2CA;
+  opacity: 0.3;
   color: #ffffff;
+  cursor: default;
 }
 
 .subscribe-input:hover {
@@ -557,6 +559,11 @@ body {
 .subscribe-input:focus {
   outline: 3px solid #83B3D3;
   background-color: #E6E6E6;
+}
+
+.subscribe-input:disabled {
+  background-color: #E6E6E6;
+  opacity: 0.3;
 }
 
 /* ПОДВАЛ */
