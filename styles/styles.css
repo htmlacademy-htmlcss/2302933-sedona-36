@@ -666,11 +666,12 @@ body {
 }
 
 .inner-header-wrapper {
-  margin-bottom: 27px;
+  margin-bottom: 40px;
 }
 
 .inner-header-title {
   margin: 0;
+  margin-bottom: 8px;
 
   font-size: 60px;
   font-weight: 700;
@@ -694,13 +695,12 @@ body {
 .breadcrumbs-item:not(:last-child)::after {
   content: url("../images/icons/icon-breadcrumbs-arrow.svg");
   position: absolute;
-  top: 9px;
-  right: 11px;
+  top: -1px;
+  right: 10px;
 }
 
 .breadcrumbs-link {
   display: block;
-  padding: 10px;
   margin-right: 28px;
   min-width: 13px;
   min-height: 15px;
@@ -733,7 +733,6 @@ body {
 
 .catalog-filter-living-type {
   margin: 0 140px 0 0;
-
 }
 
 .catalog-filter-list {
