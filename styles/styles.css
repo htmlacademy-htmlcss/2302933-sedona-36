@@ -25,6 +25,7 @@ html {
 body {
   margin: 0;
   height: 100%;
+  min-width: 1200px;
 
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -34,7 +35,7 @@ body {
   color: #000000;
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -386,6 +387,7 @@ body {
 .services-container {
   padding: 64px 348px;
 }
+
 .services-title {
   margin-bottom: 20px;
 }
@@ -617,7 +619,7 @@ body {
   display: block;
   text-align: center;
 
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .page-footer-link {
@@ -665,11 +667,12 @@ body {
 }
 
 .inner-header-wrapper {
-  margin-bottom: 27px;
+  margin-bottom: 40px;
 }
 
 .inner-header-title {
   margin: 0;
+  margin-bottom: 8px;
 
   font-size: 60px;
   font-weight: 700;
@@ -693,13 +696,12 @@ body {
 .breadcrumbs-item:not(:last-child)::after {
   content: url("../images/icons/icon-breadcrumbs-arrow.svg");
   position: absolute;
-  top: 9px;
-  right: 11px;
+  top: -1px;
+  right: 10px;
 }
 
 .breadcrumbs-link {
   display: block;
-  padding: 10px;
   margin-right: 28px;
   min-width: 13px;
   min-height: 15px;
@@ -732,7 +734,6 @@ body {
 
 .catalog-filter-living-type {
   margin: 0 140px 0 0;
-
 }
 
 .catalog-filter-list {
@@ -1106,7 +1107,7 @@ body {
 
 .hotel-card-img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   max-width: 100%;
   min-width: 100%;
   margin-bottom: 16px;
@@ -1554,7 +1555,7 @@ body {
 
 .modal-submit-button:active {
   background-color: #68A2CA;
-  color: rgba(255, 255, 255, 0.3)
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .modal-submit-button:disabled {
@@ -1610,6 +1611,7 @@ body {
   color: rgb(0, 0, 0, 0.3);
   cursor: default;
 }
+
 /* TOOLTIP */
 
 .tooltip-container {
@@ -1644,7 +1646,7 @@ body {
 .tooltip-text {
   box-sizing: border-box;
   width: 256px;
-  background-color:  #333333;
+  background-color: #333333;
   padding: 19px 22px 24px;
   font-size: 16px;
   line-height: 20px;
@@ -1660,7 +1662,7 @@ body {
 }
 
 .tooltip-text::after {
-  content: '';
+  content: "";
   width: 19px;
   height: 9px;
   bottom: 100%;
